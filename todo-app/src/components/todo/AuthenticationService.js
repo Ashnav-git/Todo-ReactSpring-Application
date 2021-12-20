@@ -9,7 +9,7 @@ class AuthenticationService {
     {
         return 'Basic '+ window.btoa(username + ":" +password)
         
-    }
+    } 
     registerSuccesfullLogin(Username,password)
     {
         
