@@ -27,12 +27,12 @@ class AuthenticationService {
         if(User === null) return false
         return true
         
-    }
+    } 
     getLoggedInUser()
     {
         let User  =  sessionStorage.getItem('authenticatedUser');
         if(User === null) return ''
-        return User
+        return User;
         
     }
  
