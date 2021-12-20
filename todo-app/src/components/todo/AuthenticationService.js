@@ -32,7 +32,7 @@ class AuthenticationService {
     {
         let User  =  sessionStorage.getItem('authenticatedUser');
         if(User === null) return ''
-        return User
+        return User;
         
     }
  
