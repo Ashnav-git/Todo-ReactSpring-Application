@@ -12,7 +12,7 @@ class AuthenticationService {
     }
     registerSuccesfullLogin(Username,password)
     {
-        
+         
         sessionStorage.setItem('authenticatedUser',Username);
         this.setUpAxiosInterceptors(this.createBasicAuthToken(Username,password))
     }
