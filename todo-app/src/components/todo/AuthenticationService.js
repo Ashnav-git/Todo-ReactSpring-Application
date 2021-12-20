@@ -35,7 +35,7 @@ class AuthenticationService {
         return User
         
     }
-
+ 
     setUpAxiosInterceptors(basicAuthHeader)
     {
        
